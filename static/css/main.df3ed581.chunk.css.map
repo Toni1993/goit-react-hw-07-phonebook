@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AACA,KACC,wBACD","file":"main.df3ed581.chunk.css","sourcesContent":["@import 'modern-normalize/modern-normalize.css';\nbody {\n\tbackground-color: #dababa;\n}\n"]}
