@@ -67,8 +67,8 @@ function App() {
 	};
 
 	return (
-		<Box display="flex" alignItems="center" flexDirection="column">
-			<Box>
+		<Box ml="auto" mr="auto">
+			<Box textAlign="center">
 				<h1>Phonebook</h1>
 				<ContactForm onSubmit={addContactOnsubmit} />
 
@@ -76,7 +76,7 @@ function App() {
 				<Filter value={filter} onChange={handleFilter} />
 				{isLoadingContacts && (
 					<div style={{ display: 'flex', justifyContent: 'center' }}>
-						<Puff color="#7dcdff" />
+						<Puff color="rgb(234 95 95)" />
 					</div>
 				)}
 				<ContactList
